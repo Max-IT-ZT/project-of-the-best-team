@@ -6,6 +6,8 @@
 */
 @import url('./reset.css');
 @import url('./fonts.css');
+@import url('./variables.css');
+@import url('./general.css');
 
 /*! Виконує Victor Hromadskyi */
 @import url('./header.css');
@@ -21,8 +23,18 @@
 
 /*! Виконує Олег Смоляков */
 @import url('./how_its_made.css');
+
+/*! Виконує Евген */
 @import url('./our_products.css');
+
+/*! Виконує Максим */
 @import url('./top_sellers.css');
+
+/** Виконує                   */
 @import url('./reviews.css');
+
+/*! Виконує Юлия Гусарова */
 @import url('./subscribe.css');
+
+/*! Виконує Сергій */
 @import url('./footer.css');
