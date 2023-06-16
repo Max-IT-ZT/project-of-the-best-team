@@ -1,1 +1,101 @@
 /*! Виконує Victor Hromadskyi */
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1136px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+}
+.header-nav {
+  display: flex;
+}
+.header-nav-list {
+  display: flex;
+  gap: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.social-networks {
+  display: flex;
+  gap: 18px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+.logo-decor {
+  font-style: italic;
+}
+/* mobile menu */
+.mobile-menu {
+}
+.mobile-menu-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 460px;
+  max-width: 220px;
+  height: 100%;
+  padding-top: 136px;
+  padding-bottom: 20px;
+  background-color: #1e1823;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mobile-menu-close-btn {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+.mobile-menu-close-icon {
+  stroke: #ffffff;
+}
+.mobile-menu-close-icon:hover {
+  stroke: #fd9222;
+}
+.header-nav-list-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 50px;
+  padding-right: 46px;
+}
+.header-nav-item-mobile {
+  color: #ffffff;
+}
+.header-nav-item-mobile:hover {
+  color: #fd9222;
+}
+.social-networks-mobile {
+  display: flex;
+  gap: 18px;
+  padding-left: 20px;
+}
+.social-networks-icon-mobile {
+  stroke: #ffffff;
+}
+.social-networks-icon-mobile:hover {
+  stroke: #fd9222;
+}
