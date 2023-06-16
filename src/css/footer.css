@@ -1,12 +1,136 @@
+.footer {
+    background: #1E1823;
+}
+
+.footer-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer-title-slogan {
+    color: #FD9222;
+}
+
+.footer-contacts-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #FFFFFF;
+}
+
+.footer-contacts-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer-social-icon {
+    color: #FFFFFF;
+}
+
+.footer-nav-block {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    display: flex;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer-contacts-title {
+    margin-bottom: 14px;
+}
+
+.footer-contacts-item {
+    margin-bottom: 4px;
+}
+
+.footer-border-line {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: rotate(180deg);
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.footer-social-block {
+    margin-left: auto;
+}
+
+.footer-contacts-section {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+
+.footer-slogan-block {
+    max-width: 300px;
+}
+
+
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
+    .footer-container {
+        padding: 32px 20px;
+    }
+
+    .footer-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+
+    .footer-contacts-block {
+        margin-bottom: 32px;
+    }
+
+    .footer-nav-item:not(:last-child) {
+        margin-bottom: 18px;
+    }
+
+    .footer-nav-list {
+        margin-top: 32px;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
+    .footer-container {
+        padding: 32px 20px;
+    }
+
+    .footer-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.02e
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+
+    .footer-contacts-block {
+        margin-bottom: 32px;
+    }
+
+    .footer-nav-item:not(:last-child) {
+        margin-bottom: 18px;
+    }
+
+    .footer-nav-list {
+        margin-top: 32px;
+    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-}
+@media screen and (min-width: 768px) and (max-width: 1200px) {}
 
-@media screen and (min-width: 1200px) {
-}
-/* icon-twitter */
+@media screen and (min-width: 1200px) {}
