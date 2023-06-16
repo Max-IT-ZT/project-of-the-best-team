@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 .section {
-  padding: 72px 0px;
+  padding-top: 72px;
 }
 .container {
   padding-left: 20px;
@@ -29,7 +29,7 @@ body {
     padding-right: 32px;
   }
   .section {
-    padding: 100px 0px;
+    padding-top: 100px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -37,6 +37,6 @@ body {
     width: 1200px;
   }
   .section {
-    padding: 128px 0px;
+    padding-top: 128px;
   }
 }
