@@ -1,0 +1,33 @@
+<section class="subscribe-main">
+    <div class="container subscribe-container">
+        <h2 class="subscribe-item">exPLORE OUR NEW CHOCOLATE FIRST</h2>
+        <p class="subscribe-text">From the velvety texture to the rich and complex flavor, our New Chocolate is a true
+            indulgence that will leave
+            you
+            craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a
+            work
+            of art
+            that is sure to please.</p>
+        <button class="subscribe-btn" type="button" data-modal-open>Subscribe</button>
+    </div>
+</section>
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-icon" width="12" height="12">
+                <use href="./img/sprite.svg#icon-x-close"></use>
+            </svg>
+        </button>
+        <span class="mini-text-modal">
+            <p class="text-modal-open">Explore our
+            new chocolate first!</p>
+        </span>
+        <form class="modal-form">
+            <div>
+        <textarea id="user-comment" name="user-comment" class="modal-form-message" placeholder="Enter your email"></textarea>
+        <button type="submit" class="modal-form-submit">Submit</button>
+            </div>
+        </form>
+
+        <script src="./js/modal.js"></script>
