@@ -4,7 +4,7 @@ body {
   background-color: var(--body-bc);
   font-size: 14px;
   line-height: 1.28; /* 18/14 */
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   margin: 0;
 }
 .section {
