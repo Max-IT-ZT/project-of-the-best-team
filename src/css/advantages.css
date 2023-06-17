@@ -1,7 +1,7 @@
 /*! Виконує Юрій Гримчак  */
 .advantages-section {
     padding-top: 20px;
-    padding-bottom: 36px;
+    padding-bottom: 20px;
     background-color: #1E1823;
 }
 
@@ -90,4 +90,10 @@
     line-height: 1.21;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 767px) {
+    .advantages-descr {
+        padding-bottom: 18px;
+    }
 }
