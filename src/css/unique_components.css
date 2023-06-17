@@ -9,8 +9,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 72px;
-    padding-bottom: 24px;
+
 }
 .unique-components-title span{
 color: #FD9222;
@@ -20,22 +19,13 @@ color: #FD9222;
     font-weight: 400;
     letter-spacing: -0.02em;
     text-align: center;
-    padding-bottom: 32px;
 }
 
-.unique-components-list{
+.unique-components-list {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-
 }
 
 
-.unique-component-flip-card {
-    background-color: transparent;
-    width: 335px;
-    height: 270px;
-}
 .unique-component-flip-card-inner {
     position: relative;
     width: 100%;
@@ -60,7 +50,8 @@ color: #FD9222;
 .unique-component-flip-card-img{
    position: absolute;
    top: 28px;
-   left: 56px;
+   left: 50%;
+   transform: translateX(-50%);
 }
 
 .unique-component-flip-card-name{
@@ -110,9 +101,105 @@ color: #FD9222;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: -0.03em;
+    padding-bottom: 8px;
 }
 
 .unique-component-flip-card-back-text{
     font-weight: 400;
     letter-spacing: -0.02em;
+    padding-top: 14px;
+    
+    display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+}
+.unique-component-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.unique-component-flip-card-back-name-btn {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+
+    background-color: #FD9222;
+    border-radius: 35px;
+    border: transparent;
+    text-align: left;
+    padding: 6px 16px;
+}
+
+.unique-component-flip-card-back-benefits-btn {
+    color: #111111;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+
+    background-color: #fafafa;
+    border-radius: 35px;
+    border: 1px solid #FD9222;
+    text-align: left;
+    padding: 6px 16px;
+}
+
+@media screen  and (max-width: 767px) {
+    .unique-components-title {
+        padding-top: 72px;
+        padding-bottom: 24px;
+    }
+
+    .unique-components-list {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .unique-component-flip-card {
+        max-width: 335px;
+        height: 270px;
+                }
+
+    .unique-components-text {
+        padding-bottom: 32px;
+        }
+}
+
+@media screen and (min-width: 768px) {
+     .unique-components-title {
+        padding-top: 100px;
+        padding-bottom: 28px;
+    }
+
+    .unique-components-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 32px;
+    }
+    .unique-component-flip-card {
+        width: 336px;
+        height: 270px;
+    
+}
+    .unique-components-text {
+        padding-bottom: 50px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .unique-components-title {
+        padding-top: 128px;}
+
+    .unique-components-list {
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 19px;
+    }
+    .unique-component-flip-card {
+        width: 270px;
+        height: 270px;
+}
 }
