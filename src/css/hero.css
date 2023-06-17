@@ -19,9 +19,9 @@
     border: none;
     column-gap: 14px;
     font-weight: 600;
-    font-size: 14px;
+    
     line-height: 1.21;
-    font-family: 'Montserrat', sans-serif;
+   
     color: #ffffff;
     
     align-items: center;
@@ -44,8 +44,7 @@
     background-color: transparent;
     border: 1px solid #ffffff;
     border-radius: 100px;
-    font-family: 'Montserrat';
-    font-style: normal;
+   
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
@@ -62,8 +61,8 @@
     display: flex;
     column-gap: 14px;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    
+   
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -108,7 +107,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url("../images/mobile/chocolate-covered-cocoa-powder\ 1.jpg");
+        url("/img/hero_img/mobile/chocolate-covered-cocoa-powder\ 1.jpg");
     }
   }
   /* Mobile hero image 2x */
@@ -121,7 +120,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url("../images/mobile/chocolate-covered-cocoa-powder\ 1@2x.jpg");
+        url("/img/hero_img/mobile/chocolate-covered-cocoa-powder\ 1@2x.jpg");
     }
   }
   
@@ -136,18 +135,23 @@
   
     .hero {
       max-width: 375px;
+      letter-spacing: -0.02em; 
     }
   
     .hero-container {
+       
     }
   
     .hero-title {
       padding: 395px 20px 20px 20px;
     }
+
+    .hero-button {
+        
+    }
   
     .hero-text {
-      font-family: 'Montserrat';
-      font-style: normal;
+    
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
@@ -165,15 +169,13 @@
       row-gap: 32px;
     }
   
-    .hero-item {
-    }
+   
   
     .buy-btn {
       padding: 12px 28px;
     }
   
-    .made-btn {
-    }
+   
   
     .hero-link {
       padding: 12px 27px;
@@ -220,7 +222,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url("../images/laptop/chocolate-covered-cocoa-powder\ 1.jpg");
+        url("/img/hero_img/laptop/chocolate-covered-cocoa-powder\ 1.jpg");
     }
   }
   /* Laptop image 2px */
@@ -233,7 +235,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url("../images/laptop/chocolate-covered-cocoa-powder\ 1@2x.jpg");
+        url("/img/hero_img/laptop/chocolate-covered-cocoa-powder\ 1@2x.jpg");
     }
   }
   
@@ -311,7 +313,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url("../images/desktop/chocolate-covered-cocoa-powder\ 1.jpg");
+        url("/img/hero_img/desktop/chocolate-covered-cocoa-powder\ 1.jpg");
     }
   }
   /* Desktop contacts image 2px */
@@ -324,7 +326,7 @@
           rgba(17, 17, 17, 0) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url("../images/desktop/chocolate-covered-cocoa-powder\ 1@2x.jpg");
+        url("/img/hero_img/desktop/chocolate-covered-cocoa-powder\ 1@2x.jpg");
     }
   }
   
