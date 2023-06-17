@@ -19,26 +19,26 @@
   column-gap: 14px;
   font-weight: 600;
   line-height: 1.21;
-  color: #ffffff;
+  color: var(--white-color);
   align-items: center;
   justify-content: center;
-  background: #fd9222;
+  background: var(--orange-color);
   border-radius: 100px;
 }
 
 .buy-btn:hover,
 .buy-btn:focus {
-  background: #fcf1e0;
-  color: #fd9222;
+  background: var(--lightorange-color);
+  color: var(--orange-color);
 }
 
 .hero-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
   border-radius: 100px;
   font-weight: 600;
   font-size: 14px;
@@ -47,8 +47,8 @@
 
 .hero-link:hover,
 .hero-link:focus {
-  border: 1px solid #fd9222;
-  color: #fd9222;
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color);
 }
 
 .hero-scroll-link {
@@ -59,17 +59,17 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-scroll-link:hover,
 .hero-scroll-link:focus {
-  color: #fd9222;
+  color: var(--orange-color);
 }
 
 .hero-scroll-link:hover .hero-scroll-btn,
 .hero-scroll-link:focus .hero-scroll-btn {
-  fill: #ffffff;
+  fill: var(--white-color);
 }
 
 .hero-scroll-btn {
@@ -78,7 +78,7 @@
   justify-content: center;
   align-items: center;
   background-color: currentColor;
-  fill: #fd9222;
+  fill: var(--orange-color);
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -133,7 +133,7 @@
     line-height: 1.2;
     letter-spacing: -0.01em;
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white-color);
   }
 
   .hero-button {
@@ -241,7 +241,7 @@
     font-size: 28px;
     line-height: 1.21;
     letter-spacing: -0.03em;
-    color: #ffffff;
+    color: var(--white-color);
     margin-bottom: 32px;
     max-width: 484px;
   }
