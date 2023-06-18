@@ -1,6 +1,6 @@
 <!-- ! Виконує Victor Hromadskyi -->
 <header>
-  <div class="header-container container">
+  <div class="container">
     <a class="logo link" href="index.html">
       <span class="logo-decor">simply</span> chocolate
       <svg width="24" height="24">
@@ -10,25 +10,33 @@
     <nav class="header-nav">
       <ul class="header-nav-list list">
         <li>
-          <a class="header-nav-item link" href="index.html">Home</a>
+          <a class="header-nav-item link nav-item-pseudo" href="index.html"
+            >Home</a
+          >
         </li>
         <li>
-          <a class="header-nav-item link" href="how_its_made.html"
+          <a
+            class="header-nav-item link nav-item-pseudo"
+            href="how_its_made.html"
             >How it's made?</a
           >
         </li>
         <li>
-          <a class="header-nav-item link" href="our_products.html"
+          <a
+            class="header-nav-item link nav-item-pseudo"
+            href="our_products.html"
             >Our products</a
           >
         </li>
         <li>
-          <a class="header-nav-item link" href="top_sellers.html"
+          <a class="header-nav-item link nav-item-pseudo" href="#top-sellers"
             >Top sellers</a
           >
         </li>
         <li>
-          <a class="header-nav-item link" href="partials/reviews.html"
+          <a
+            class="header-nav-item link nav-item-pseudo"
+            href="partials/reviews.html"
             >Chocolate is loved</a
           >
         </li>
@@ -50,11 +58,19 @@
         </a>
       </li>
     </ul>
+    <button type="button" class="mobile-menu-open-btn js-open-menu">
+      <svg width="28" height="28">
+        <use
+          class="mobile-menu-open-btn-icon"
+          href="../img/sprite.svg#icon-burger"
+        ></use>
+      </svg>
+    </button>
   </div>
-  <div class="mobile-menu">
+  <div class="mobile-menu js-menu-container">
     <div class="mobile-menu-container">
-      <button type="button" class="mobile-menu-close-btn">
-        <svg class="mobile-menu-close-icon" width="24" height="24">
+      <button type="button" class="mobile-menu-close-btn js-close-menu">
+        <svg class="mobile-menu-close-icon" width="28" height="28">
           <use href="../img/sprite.svg#icon-x-close"></use>
         </svg>
       </button>
