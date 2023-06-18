@@ -32,8 +32,12 @@
     color: #FFFFFF;
 }
 
-.footer-social-icon {
-    color: #FFFFFF;
+.footer-social-logo {
+    stroke: #FFFFFF;
+}
+.footer-social-logo:hover,
+.footer-social-logo:focus {
+ stroke:#FD9222;;
 }
 
 .footer-contacts-title {
@@ -70,10 +74,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-
     letter-spacing: -0.02em;
     color: #FFFFFF;
-
 }
 
 
@@ -98,6 +100,10 @@
 
     .footer-social-block {
         margin-left: auto;
+    }
+    .footer-social-icon{
+        width: 22px;
+        height: 22px;
     }
 
     .footer-nav-item:not(:last-child) {
@@ -137,6 +143,10 @@
     .footer-social-block {
         margin-left: auto;
     }
+    .footer-social-icon{
+        width: 22px;
+        height: 22px;
+    }
 
     .footer-nav-block {
         margin-top: 32px;
@@ -170,6 +180,10 @@
     .footer-social-block {
         margin-left: 50px;
     }
+    .footer-social-icon{
+        width: 24px;
+        height: 24px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -196,6 +210,10 @@
 
     .footer-social-block {
         margin-left: 63px;
+    }
+    .footer-social-icon{
+        width: 24px;
+        height: 24px;
     }
 
     .footer-nav-block {
