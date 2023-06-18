@@ -1,5 +1,5 @@
 /*! Виконує Victor Hromadskyi */
-/* .container {
+.container {
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -42,9 +42,9 @@
 }
 .logo-decor {
   font-style: italic;
-} */
+}
 /* mobile menu */
-/* .mobile-menu {
+.mobile-menu {
 }
 .mobile-menu-container {
   position: relative;
@@ -98,4 +98,4 @@
 }
 .social-networks-icon-mobile:hover {
   stroke: #fd9222;
-} */
+}
