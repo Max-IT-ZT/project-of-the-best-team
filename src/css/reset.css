@@ -41,12 +41,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  color: #111111;
-  background-color: #e2e2e2;
-  font-size: 14px;
-  line-height: 1.28; /* 18/14 */
-  letter-spacing: 0.02em;
-}
