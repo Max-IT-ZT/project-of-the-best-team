@@ -1,3 +1,4 @@
+
  /* .backdrop {
      position: fixed;
      top: 0;
@@ -106,14 +107,14 @@
      color: #FD9222;
  }
 
- .modal-form {
-     position: relative;
-     display: flex;
-     flex-wrap: nowrap;
-     flex-direction: column;
-     padding-left: 24px;
-     padding-right: 24px;
- }
+.modal-form {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 
  .modal-form-input {
      display: flex;
@@ -158,27 +159,27 @@
      margin-bottom: 16px;
  } */
 
- .modal-form-subscribe {
-     position: absolute;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 600;
-     font-size: 14px;
-     line-height: 17px;
-     text-align: center;
-     color: #FFFFFF;
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     padding: 14px 28px;
-     width: 100px;
-     height: 45px;
-     margin-left: 163px;
-     top: 0px;
-     background: #FD9222;
-     border-radius: 100px;
-     border: none;
- }
+.modal-form-subscribe {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  width: 100px;
+  height: 45px;
+  margin-left: 163px;
+  top: 0px;
+  background: #fd9222;
+  border-radius: 100px;
+  border: none;
+}
 
  .overlay-subscribe {
 
@@ -197,12 +198,3 @@
  }
 
  
- 
-
- 
-
- 
-
- 
- 
-
