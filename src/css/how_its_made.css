@@ -2,14 +2,13 @@
 /* ================== mobile first ================== */
 
 .h-i-m-container {
-    min-width: 320px;
+    min-width: 375px;
     width: 100%;
     padding: 0px 20px;
     margin: 0px auto;
 }
 
 .h-i-m-section {
-    padding-bottom: 72px;
     background-color: var(--body-bc);
 
 }
@@ -115,7 +114,6 @@ iframe {
     }
 
     .h-i-m-section {
-        padding-bottom: 100px;
     }
 
     .h-i-m-description {
@@ -181,7 +179,7 @@ iframe {
     }
 
     .h-i-m-video {
-        width: 500px;
+        width: 600px;
         margin-bottom: 0px;
     }
 
