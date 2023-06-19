@@ -9,6 +9,7 @@
 .reviews-container {
     position: relative;
     overflow: hidden;
+    z-index: 0;
 }
 
 .reviews-title {
@@ -72,7 +73,7 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    bottom: var(--swiper-pagination-bottom, 42px);
+    bottom: var(--swiper-pagination-bottom, 28px);
 }
 
 @media screen and (max-width: 279px) {
@@ -148,10 +149,10 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-    /* .reviews-list { */
-        /* gap: 16px;  */
-    /* } */
-    /*  */
+    .reviews-list {
+        gap: 16px; 
+    }
+    
     .reviews-item-review {
         width: 344px;
         margin: 50px 0;
@@ -167,18 +168,25 @@
     }
 
     .swiper {
-        width: 384px;
+        width: 344px;
         overflow: visible;
-        
+        margin-left: 0;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: var(--swiper-pagination-bottom, 42px);
     }
 }
 
 /* DESKTOP */
 
 @media screen and (min-width: 1200px) {
-    /* .reviews-list { */
-        /* gap: 28px; */
-    /* } */
+    .reviews-list {
+        gap: 28px;
+    }
 
     .reviews-item-review {
         width: 360px;
@@ -190,6 +198,7 @@
     }
 
     .swiper {
-        width: 400px;
+        width: 360px;
+        /* margin-left: auto; */
     }
 }
