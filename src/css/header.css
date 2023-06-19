@@ -1,18 +1,12 @@
 /*! Виконує Victor Hromadskyi */
 /* =============== GENERAL =============== */
 
-:root {
-  --black: #111111;
-  --dark-purple: #1e1823;
-  --orange: #fd9222;
-  --white: #fafafa;
-}
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px 14px 20px;
-  background-color: var(--white);
+  background-color: var(--white-color);
 }
 .logo {
   display: flex;
@@ -28,6 +22,7 @@
 .logo-decor {
   font-style: italic;
 }
+
 /* =============== MOBILE MENU =============== */
 .mobile-menu-open-btn {
   border: none;
@@ -37,18 +32,18 @@
   line-height: 0;
 }
 .mobile-menu-open-btn-icon {
-  stroke: var(--dark-purple);
+  stroke: var(--black-color);
 }
 .mobile-menu {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: var(--dark-purple);
+  background-color: var(--darkviolet-color);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-.mobile-menu.is-open {
+.mobile-menu.active {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -78,12 +73,12 @@
   background-color: transparent;
 }
 .mobile-menu-close-icon {
-  stroke: var(--white);
+  fill: var(--white-color);
   width: 28px;
   height: 28px;
 }
 .mobile-menu-close-icon:hover {
-  stroke: var(--orange);
+  fill: var(--orange-color);
 }
 .header-nav-list-mobile {
   display: flex;
@@ -91,12 +86,19 @@
   gap: 24px;
   padding-left: 44px;
   padding-right: 44px;
-  color: var(--white);
+  color: var(--white-color);
+}
+.header-nav-list-mobile:hover {
+  color: var(--orange-color);
 }
 .social-networks-mobile {
   display: flex;
   gap: 18px;
   padding-left: 20px;
+}
+.social-networks-icon-mobile {
+  fill: transparent;
+  stroke: var(--white-color);
 }
 
 @media screen and (max-width: 1199px) {
@@ -134,7 +136,6 @@
 @media screen and (min-width: 1200px) {
   .header-container {
     width: 1200px;
-    height: 24px;
     padding: 24px 32px 32px 32px;
   }
   .header-nav {
@@ -154,7 +155,8 @@
     gap: 18px;
   }
   .social-networks-icon {
-    fill: #fafafa;
+    fill: none;
+    stroke: var(--black-color);
   }
   .mobile-menu-open-btn {
     display: none;
@@ -163,7 +165,7 @@
     position: relative;
   }
   .header-nav-item:hover {
-    color: var(--orange);
+    color: var(--orange-color);
   }
   .nav-item-pseudo:after {
     position: absolute;
@@ -173,7 +175,7 @@
     width: 50%;
     height: 1px;
     border-radius: 2px;
-    background-color: var(--orange);
+    background-color: var(--orange-color);
   }
   .nav-item-pseudo:hover::after,
   .nav-item-pseudo:focus::after {
@@ -181,6 +183,6 @@
   }
   .social-networks-icon:hover,
   .social-networks-icon:focus {
-    fill: var(--orange);
+    stroke: var(--orange-color);
   }
 }
