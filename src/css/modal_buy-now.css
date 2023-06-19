@@ -1,4 +1,4 @@
-.modal {
+.buy-now-modal {
   opacity: 0;
   visibility: hidden;
   width: 100%;
@@ -179,7 +179,7 @@
   background-color: rgb(234, 234, 234);
   color: rgb(120, 120, 120);
 }
-.overlay {
+.buy-now-overlay {
   /* Скрываем подложку  */
   opacity: 0;
   visibility: hidden;
@@ -192,14 +192,14 @@
   z-index: 20;
   transition: 0.3s all;
 }
-.modal.active,
-.overlay.active {
+.buy-now-modal.active,
+.buy-now-overlay.active {
   opacity: 1;
   visibility: visible;
   overflow: scroll;
 }
 @media screen and (min-width: 768px) {
-  .modal {
+  .buy-now-modal {
     min-width: 609px;
     max-height: 1058px;
     padding: 48px;
@@ -218,7 +218,7 @@
   }
   .buy-now-subtitle {
     font-size: 24px;
-    line-height: 1, 17; /* 28px/24 */
+    line-height: 1.17; /* 28px/24 */
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -319,11 +319,11 @@
     padding: 14px 40px;
     min-width: 133px;
   }
-  .modal.active,
-  .overlay.active {
+  .buy-now-modal.active,
+  .buy-now-overlay.active {
     overflow: hidden;
   }
-  .overlay {
+  .buy-now-overlay {
     overflow: hidden;
   }
 }
