@@ -5,7 +5,7 @@
     font-weight: 600;
     letter-spacing: -0.03em;
     
-    width: 283px;
+    
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -19,6 +19,8 @@ color: #FD9222;
     font-weight: 400;
     letter-spacing: -0.02em;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .unique-components-list {
@@ -31,11 +33,14 @@ color: #FD9222;
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+    perspective: 1000px;
 }
-.unique-component-flip-card:hover .unique-component-flip-card-inner {
+
+.unique-component-flip-card-inner:hover .unique-component-flip-card-front {
     transform: rotateY(180deg);
+}
+.unique-component-flip-card-inner:hover .unique-component-flip-card-back {
+    transform: rotateY(360deg);
 }
 
 .unique-component-flip-card-front,
@@ -45,6 +50,10 @@ color: #FD9222;
     height: 100%;
    
     backface-visibility: hidden;
+
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
 }
 
 .unique-component-flip-card-img{
@@ -85,21 +94,24 @@ color: #FD9222;
     background-color: transparent;
     border-radius: 15px;
     border: 1px solid #FD9222;
+
+    perspective: 1000px;
 }
 .unique-component-flip-card-back {
    border-radius: 15px;
    background-color: white;
    color: black;
+  
+    padding: 28px;
+    text-align: start;
     transform: rotateY(180deg);
 }
 
-.unique-component-flip-card-back{
-    padding: 28px;
-    text-align: start;
-}
 .unique-component-flip-card-back-name{
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
     letter-spacing: -0.03em;
     padding-bottom: 8px;
 }
@@ -145,10 +157,13 @@ color: #FD9222;
     padding: 6px 16px;
 }
 
+
+
 @media screen  and (max-width: 767px) {
     .unique-components-title {
         padding-top: 72px;
         padding-bottom: 24px;
+        max-width: 283px;
     }
 
     .unique-components-list {
@@ -160,15 +175,19 @@ color: #FD9222;
     .unique-component-flip-card {
         max-width: 335px;
         height: 270px;
+       
                 }
 
     .unique-components-text {
         padding-bottom: 32px;
+        max-width: 335px;
         }
+    
 }
 
 @media screen and (min-width: 768px) {
      .unique-components-title {
+        width: 411px;
         padding-top: 100px;
         padding-bottom: 28px;
     }
@@ -185,12 +204,14 @@ color: #FD9222;
     
 }
     .unique-components-text {
+        width: 486px;
         padding-bottom: 50px;
 }
 }
 
 @media screen and (min-width: 1200px) {
     .unique-components-title {
+       
         padding-top: 128px;}
 
     .unique-components-list {
@@ -202,4 +223,6 @@ color: #FD9222;
         width: 270px;
         height: 270px;
 }
+.unique-component-flip-card-back {
+    padding: 20px;}
 }
