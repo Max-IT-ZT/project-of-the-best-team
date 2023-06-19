@@ -1,9 +1,9 @@
 .modal {
   opacity: 0;
   visibility: hidden;
-  width: 95%;
+  width: 100%;
   max-width: 311px;
-  height: 95%;
+  height: 100%;
   max-height: 584px;
   background: var(--body-bc);
   border-radius: 15px;
@@ -134,8 +134,7 @@
   right: 14px;
   transform: translateY(-50%);
 }
-.buy-now-modal-form-textarea-container {
-}
+
 .modal-label {
   display: block;
   margin-bottom: 8px;
@@ -143,7 +142,7 @@
 .buy-now-modal-textarea {
   resize: none;
   width: 100%;
-  max-height: 91px;
+  min-height: 91px;
   padding: 14px 18px 60px;
   gap: 40px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
