@@ -34,6 +34,7 @@ color: #FD9222;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
+
 .unique-component-flip-card:hover .unique-component-flip-card-inner {
     transform: rotateY(180deg);
 }
@@ -90,16 +91,17 @@ color: #FD9222;
    border-radius: 15px;
    background-color: white;
    color: black;
+  
+    padding: 28px;
+    text-align: start;
     transform: rotateY(180deg);
 }
 
-.unique-component-flip-card-back{
-    padding: 28px;
-    text-align: start;
-}
 .unique-component-flip-card-back-name{
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
     letter-spacing: -0.03em;
     padding-bottom: 8px;
 }
@@ -145,6 +147,8 @@ color: #FD9222;
     padding: 6px 16px;
 }
 
+
+
 @media screen  and (max-width: 767px) {
     .unique-components-title {
         padding-top: 72px;
@@ -160,11 +164,13 @@ color: #FD9222;
     .unique-component-flip-card {
         max-width: 335px;
         height: 270px;
+        perspective: 1000px;
                 }
 
     .unique-components-text {
         padding-bottom: 32px;
         }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -202,4 +208,6 @@ color: #FD9222;
         width: 270px;
         height: 270px;
 }
+.unique-component-flip-card-back {
+    padding: 20px;}
 }
