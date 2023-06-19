@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.reviews-container {
+    position: relative;
+    overflow: hidden;
+}
+
 .reviews-title {
     font-weight: 600;
     font-size: 20px;
@@ -34,7 +39,7 @@
 
 .reviews-photo {
     position: absolute;
-    top: 15%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -60,6 +65,14 @@
     letter-spacing: -0.02em;
     color: rgba(17, 17, 17, 0.7);
     margin: 0 18px;
+    max-width: 299px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 42px);
 }
 
 @media screen and (max-width: 279px) {
@@ -69,6 +82,10 @@
 
     .reviews-item-comment {
         margin-bottom: 42px;
+    }
+
+    .swiper {
+        width: auto;
     }
 }
 
@@ -101,16 +118,40 @@
     fill: var(--orange-color);
 }
 
+.swiper {
+    width: 350px;
+    height: 100%;
+}
 
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background-color: rgba(17, 17, 17, 0.1);
+    border: 50%;
+}
+
+.swiper-pagination-bullet-active {
+    width: 28px;
+    height: 13px;
+    background-color: var(--orange-color);
+    border-radius: 35%;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-    .reviews-list {
-        gap: 16px; 
-    }
-    
+    /* .reviews-list { */
+        /* gap: 16px;  */
+    /* } */
+    /*  */
     .reviews-item-review {
         width: 344px;
         margin: 50px 0;
@@ -122,15 +163,22 @@
 
     .reviews-item-comment{
         margin: 0 16px;
+        max-width: 312px;
+    }
+
+    .swiper {
+        width: 384px;
+        overflow: visible;
+        
     }
 }
 
 /* DESKTOP */
 
 @media screen and (min-width: 1200px) {
-    .reviews-list {
-        gap: 28px;
-    }
+    /* .reviews-list { */
+        /* gap: 28px; */
+    /* } */
 
     .reviews-item-review {
         width: 360px;
@@ -138,5 +186,10 @@
     
     .reviews-item-comment{
         margin: 0 24px;
+        max-width: 360px;
+    }
+
+    .swiper {
+        width: 400px;
     }
 }
