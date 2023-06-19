@@ -9,6 +9,7 @@
 .reviews-container {
     position: relative;
     overflow: hidden;
+    z-index: 0;
 }
 
 .reviews-title {
@@ -59,8 +60,8 @@
     margin-bottom: 24px;
 }
 
-.reviews-item-comment{
-    font-weight: 400;    
+.reviews-item-comment {
+    font-weight: 400;
     text-align: center;
     letter-spacing: -0.02em;
     color: rgba(17, 17, 17, 0.7);
@@ -72,7 +73,7 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    bottom: var(--swiper-pagination-bottom, 42px);
+    bottom: var(--swiper-pagination-bottom, 28px);
 }
 
 @media screen and (max-width: 279px) {
@@ -109,6 +110,7 @@
 .reviews-container-btn:focus {
     background-color: var(--orange-color);
 }
+
 .reviews-container-btn-text:hover,
 .reviews-container-btn-text:focus {
     color: var(--white-color);
@@ -148,10 +150,10 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-    /* .reviews-list { */
-        /* gap: 16px;  */
-    /* } */
-    /*  */
+    .reviews-list {
+        gap: 16px;
+    }
+
     .reviews-item-review {
         width: 344px;
         margin: 50px 0;
@@ -161,35 +163,43 @@
         top: 25%;
     }
 
-    .reviews-item-comment{
+    .reviews-item-comment {
         margin: 0 16px;
         max-width: 312px;
     }
 
     .swiper {
-        width: 384px;
+        width: 344px;
         overflow: visible;
-        
+        margin-left: 0;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: var(--swiper-pagination-bottom, 42px);
     }
 }
 
 /* DESKTOP */
 
 @media screen and (min-width: 1200px) {
-    /* .reviews-list { */
-        /* gap: 28px; */
-    /* } */
+    .reviews-list {
+        gap: 28px;
+    }
 
     .reviews-item-review {
         width: 360px;
     }
-    
-    .reviews-item-comment{
+
+    .reviews-item-comment {
         margin: 0 24px;
         max-width: 360px;
     }
 
     .swiper {
-        width: 400px;
+        width: 360px;
+        /* margin-left: auto; */
     }
 }

@@ -1,5 +1,4 @@
 const swiper = new Swiper('.swiper', {
-  slidesPerView: 'auto',
   // Optional parameters
   slidesPerView: 'auto',
   direction: 'horizontal',
