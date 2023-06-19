@@ -5,7 +5,7 @@
     font-weight: 600;
     letter-spacing: -0.03em;
     
-    width: 283px;
+    
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -19,6 +19,8 @@ color: #FD9222;
     font-weight: 400;
     letter-spacing: -0.02em;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .unique-components-list {
@@ -161,6 +163,7 @@ color: #FD9222;
     .unique-components-title {
         padding-top: 72px;
         padding-bottom: 24px;
+        width: 283px;
     }
 
     .unique-components-list {
@@ -177,12 +180,14 @@ color: #FD9222;
 
     .unique-components-text {
         padding-bottom: 32px;
+        width: 335px;
         }
     
 }
 
 @media screen and (min-width: 768px) {
      .unique-components-title {
+        width: 411px;
         padding-top: 100px;
         padding-bottom: 28px;
     }
@@ -199,12 +204,14 @@ color: #FD9222;
     
 }
     .unique-components-text {
+        width: 486px;
         padding-bottom: 50px;
 }
 }
 
 @media screen and (min-width: 1200px) {
     .unique-components-title {
+       
         padding-top: 128px;}
 
     .unique-components-list {
