@@ -163,7 +163,7 @@ color: #FD9222;
     .unique-components-title {
         padding-top: 72px;
         padding-bottom: 24px;
-        width: 283px;
+        max-width: 283px;
     }
 
     .unique-components-list {
@@ -180,7 +180,7 @@ color: #FD9222;
 
     .unique-components-text {
         padding-bottom: 32px;
-        width: 335px;
+        max-width: 335px;
         }
     
 }
