@@ -1,4 +1,3 @@
-
 /*! Виконує Victor Hromadskyi */
 /* =============== GENERAL =============== */
 
@@ -90,7 +89,7 @@
   padding-right: 44px;
   color: var(--white-color);
 }
-.header-nav-list-mobile:hover {
+.header-nav-item-mobile:hover {
   color: var(--orange-color);
 }
 .social-networks-mobile {
@@ -101,6 +100,9 @@
 .social-networks-icon-mobile {
   fill: transparent;
   stroke: var(--white-color);
+}
+.social-networks-icon-mobile:hover {
+  stroke: var(--orange-color);
 }
 
 @media screen and (max-width: 1199px) {
