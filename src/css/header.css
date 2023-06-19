@@ -48,6 +48,7 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  z-index: 84;
 }
 .mobile-menu-container {
   position: relative;
