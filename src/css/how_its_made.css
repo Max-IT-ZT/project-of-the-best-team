@@ -2,7 +2,7 @@
 /* ================== mobile first ================== */
 
 .h-i-m-container {
-    min-width: 375px;
+    min-width: 320px;
     width: 100%;
     padding: 0px 20px;
     margin: 0px auto;
@@ -10,6 +10,7 @@
 
 .h-i-m-section {
     background-color: var(--body-bc);
+    padding-top: 72px;
 
 }
 
@@ -43,13 +44,14 @@ iframe {
     height: 600px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pastry-chef-preparing-chocolate-cake.jpg);
     border-radius: 15px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 
 .h-i-m-list {
     width: 100%;
     height: auto;
+    padding-left: 0;
 }
 
 
@@ -114,6 +116,7 @@ iframe {
     }
 
     .h-i-m-section {
+        padding-top: 72px;
     }
 
     .h-i-m-description {
@@ -165,12 +168,12 @@ iframe {
     }
 
     .h-i-m-section {
-    
+    padding-top: 72px;
     }
 
     .h-i-m-description {
         width: 516px;
-        padding: 32px 32px 32px 32px;
+        padding: 32px 32px 20px 32px;
     }
 
     .h-i-m-content {
