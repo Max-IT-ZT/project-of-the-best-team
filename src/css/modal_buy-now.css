@@ -4,7 +4,7 @@
   width: 100%;
   max-width: 311px;
   height: 100%;
-  max-height: 584px;
+  max-height: 994px;
   background: var(--body-bc);
   border-radius: 15px;
   position: fixed;
@@ -74,6 +74,10 @@
   margin-bottom: 18px;
 }
 .buy-now-modal-label-name {
+  display: block;
+  margin-bottom: 8px;
+}
+.buy-now-modal-label {
   display: block;
   margin-bottom: 8px;
 }
@@ -319,13 +323,12 @@
     padding: 14px 40px;
     min-width: 133px;
   }
-  .buy-now-modal.active,
-  .buy-now-overlay.active {
-    overflow: hidden;
+  .buy-now-modal.active {
+    overflow: scroll;
   }
   .buy-now-overlay {
     overflow: hidden;
+    position: fixed;
+    width: 100%;
   }
-}
-@media screen and (min-width: 1200px) {
 }
