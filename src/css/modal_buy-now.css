@@ -326,9 +326,4 @@
   .buy-now-modal.active {
     overflow: scroll;
   }
-  .buy-now-overlay {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-  }
 }
