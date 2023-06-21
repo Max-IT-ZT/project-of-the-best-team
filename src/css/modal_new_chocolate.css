@@ -12,6 +12,8 @@
   z-index: 30;
   background-color: #ffffff;
   border-radius: 15px;
+  
+  
   /* padding-bottom: 32px; */
 }
 
@@ -92,6 +94,7 @@
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 25px;
   box-sizing: border-box;
+ 
 }
 
 .modal-form-input::placeholder {
@@ -106,13 +109,15 @@
 
 .text-modal-open {
   font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #111111;
   /* padding-left: 24px;
   padding-right: 24px; */
-  justify-content: center;
-  white-space: pre-line;
+  /* justify-content: center;
+  white-space: pre-line; */
 }
 
 .subscribe-item-page {
@@ -131,6 +136,12 @@
   z-index: 20;
 }
 
+
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+fill: #fd9222;
+transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .overlay-subscribe.active,
 .modal-subscribe.active {
   opacity: 1;
@@ -142,9 +153,8 @@
     margin-top: 24px;
   }
 
- .top-pozition {
-  padding-left: 40px;
-  padding-right: 40px;
+ .modal-form-input {
+padding-right: 110px;
  }
 
   .text-modal-open {
@@ -160,6 +170,11 @@
     max-width: 538px;
     max-height: 412px;
   }
+
+    .top-pozition {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
 
   .subscribe-img {
     width: 100%;
@@ -190,16 +205,21 @@
     padding: 17px 33px 18px 33px;
     margin: 0;
   }
+ .modal-form-subscribe:hover,
+ .modal-form-subscribe:focus {
+  color: #fd9222;
+  background: #fcf1e0;
+ }
 
   .text-modal-open {
-    display: inline-flex;
-    flex-direction: column;
+   
     /* justify-content: start; */
     /* min-width: 298px; */
-    /* margin-top: 40px; */
+    margin-top: 40px;
     margin-bottom: 28px;
     font-size: 24px;
     line-height: 1.17;
+    padding: 0;
     /* padding-left: 40px;
     padding-right: 40px; */
   }
