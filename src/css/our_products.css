@@ -1,4 +1,4 @@
-.container {
+.container-product {
   width: 375px;
   padding: 0 20px;
   margin: 0 auto;
@@ -118,11 +118,11 @@
     display: contents;
   }
   .our-products-top-h {
-    margin: 0 286px;
+    margin: 0 253px;
   }
   .our-products-bottom-h {
   }
-  .container {
+  .container-product {
     width: 767px;
     height: 487px;
     padding: 0 32px;
@@ -133,6 +133,7 @@
   .choco-items-box {
     display: flex;
     gap: 18px;
+    padding-left: 0;
   }
   .choko-list {
     display: flex;
@@ -162,19 +163,26 @@
 /* -------DESCTOP------- */
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .container-product {
     width: 1200px;
   }
-  .display-2 {
+  .display-1 {
     display: contents;
     display: flex;
     flex-direction: column;
+  }
+  .display-2 {
+    /* display: contents;
+    display: flex;
+    flex-direction: column; */
+    display: none;
   }
   .our-products-top-h {
     margin: auto 502px;
   }
   .choco-items-box {
     display: flex;
+    padding: 0;
     gap: 18px;
   }
   .our-products-batton {
