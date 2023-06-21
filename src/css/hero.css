@@ -16,7 +16,7 @@
 .buy-btn {
   display: flex;
   border: none;
-  column-gap: 14px;
+ 
   font-weight: 600;
   line-height: 1.21;
   color: var(--white-color);
@@ -138,14 +138,15 @@
 
   .hero-button {
     display: flex;
-    column-gap: 14px;
+    
     align-items: center;
-    /* flex-wrap: wrap;
-    row-gap: 32px; */
+    flex-wrap: wrap;
+    row-gap: 32px;
   }
 
   .buy-btn {
     padding: 12px 28px;
+    margin-right: 14px;
   }
 
   .hero-link {
@@ -173,6 +174,7 @@
 
   .hero-svg {
     width: 12px;
+    height: 12px;
   }
 }
 
@@ -225,13 +227,10 @@
   }
 
   .hero-link {
-    column-gap: 153px;
+   margin-right: 163px;
   }
 
-  .hero-scroll-link {
-    margin-left: 163px;
-  }
-
+  
   .scroll-container {
     display: flex;
    
@@ -264,12 +263,18 @@
   .hero-button {
     display: flex;
     align-items: center;
-    column-gap: 14px;
+    
   }
 
-  .buy-btn,
+  .buy-btn {
+    padding: 14px 40px;
+    margin-right: 14px;
+  }
+
+
   .hero-link {
     padding: 14px 40px;
+    
   }
 
   .hero-scroll-btn {
@@ -321,10 +326,11 @@
     padding: 380px 40px 40px 40px;
   }
 
-  .hero-scroll-link {
-    margin-left: 594px;
+  .hero-link {
+    margin-right: 594px;
   }
 
+  
   .scroll-container {
     display: flex;
   }
