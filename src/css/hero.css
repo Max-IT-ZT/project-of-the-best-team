@@ -2,7 +2,7 @@
 .hero {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 71px;
+  /* margin-bottom: 71px; */
 }
 
 .hero-title {
@@ -119,9 +119,9 @@
     padding-right: 20px;
   }
 
-  /* .hero {
-    max-width: 375px;
-  } */
+  .hero {
+    padding-bottom: 72px;
+  }
 
   .hero-title {
     padding: 395px 20px 20px 20px;
@@ -140,8 +140,8 @@
     display: flex;
     column-gap: 14px;
     align-items: center;
-    flex-wrap: wrap;
-    row-gap: 32px;
+    /* flex-wrap: wrap;
+    row-gap: 32px; */
   }
 
   .buy-btn {
@@ -159,8 +159,10 @@
 
   .scroll-container {
     display: flex;
-    align-items: center;
+    
     column-gap: 12px;
+    flex-wrap: wrap;
+    row-gap: 32px;
   }
 
   .hero-scroll-text {
@@ -214,6 +216,10 @@
     width: 768px;
   }
 
+  .hero {
+    padding-bottom: 50px;
+  }
+
   .hero-title {
     padding: 670px 40px 40px 40px;
   }
@@ -223,7 +229,12 @@
   }
 
   .hero-scroll-link {
-    margin-left: 142px;
+    margin-left: 163px;
+  }
+
+  .scroll-container {
+    display: flex;
+   
   }
 }
 
@@ -234,6 +245,10 @@
   .container {
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .hero {
+    padding-bottom: 72px;
   }
 
   .hero-text {
@@ -307,6 +322,10 @@
   }
 
   .hero-scroll-link {
-    margin-left: 577px;
+    margin-left: 594px;
+  }
+
+  .scroll-container {
+    display: flex;
   }
 }
