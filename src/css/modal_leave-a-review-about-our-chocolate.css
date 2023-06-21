@@ -184,10 +184,10 @@
   background: var(--lightorange-color);
   color: var(--orange-color);
 }
-/* .leave-btn:disabled {
+.leave-btn:disabled {
   background-color: rgb(234, 234, 234);
   color: rgb(120, 120, 120);
-} */
+}
 .leave-overlay {
   /* Скрываем подложку  */
   opacity: 0;

@@ -180,10 +180,10 @@
   background: var(--lightorange-color);
   color: var(--orange-color);
 }
-/* .buy-now-btn:disabled {
+.buy-now-btn:disabled {
   background-color: rgb(234, 234, 234);
   color: rgb(120, 120, 120);
-} */
+}
 .buy-now-overlay {
   /* Скрываем подложку  */
   opacity: 0;
