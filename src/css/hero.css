@@ -226,8 +226,9 @@
     padding: 670px 40px 40px 40px;
   }
 
-  .hero-link {
-   margin-right: 163px;
+  
+  .hero-scroll-link {
+    margin-left: auto;
   }
 
   
@@ -326,10 +327,9 @@
     padding: 380px 40px 40px 40px;
   }
 
-  .hero-link {
-    margin-right: 594px;
-  }
-
+ .hero-scroll-link {
+  margin-left: auto;
+ }
   
   .scroll-container {
     display: flex;
