@@ -1,9 +1,9 @@
-.container-product {
+/* .container-product {
   width: 375px;
   padding: 0 20px;
   margin: 0 auto;
   border: 1px solid red;
-}
+} */
 .top-h-produtcs {
   /* display: flex; */
 }
@@ -11,6 +11,7 @@
 .choco-items-box {
   width: 325px;
   margin-top: 32px;
+  padding-left: 0;
 }
 .our-products {
   width: 1136px;
@@ -63,7 +64,8 @@
 .our-products-img {
   width: 230px;
   height: 201px;
-  margin-left: 52px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 32px;
   margin-bottom: 8px;
 }
@@ -114,6 +116,10 @@
 /* ------tablet------- */
 
 @media screen and (min-width: 767px) and (max-width: 1199px) {
+  .container-product {
+    margin-left: 0;
+  }
+
   .display-1 {
     display: contents;
   }
@@ -122,18 +128,19 @@
   }
   .our-products-bottom-h {
   }
-  .container-product {
+  /* .container-product {
     width: 767px;
     height: 487px;
     padding: 0 32px;
     margin: 0 auto;
     overflow-x: hidden;
     border: 1px solid red;
-  }
+  } */
   .choco-items-box {
     display: flex;
     gap: 18px;
     padding-left: 0;
+    width: 100%;
   }
   .choko-list {
     display: flex;
@@ -163,27 +170,31 @@
 /* -------DESCTOP------- */
 
 @media screen and (min-width: 1200px) {
-  .container-product {
+  /* .container-product {
     width: 1200px;
-  }
+  } */
   .display-1 {
     display: contents;
     display: flex;
     flex-direction: column;
   }
   .display-2 {
-    /* display: contents;
+    display: contents;
     display: flex;
-    flex-direction: column; */
+    flex-direction: column;
     display: none;
   }
   .our-products-top-h {
     margin: auto 502px;
   }
+  .our-products-img {
+    margin-left: 20px;
+  }
   .choco-items-box {
     display: flex;
     padding: 0;
     gap: 18px;
+    width: 100%;
   }
   .our-products-batton {
     margin-left: 88px;
