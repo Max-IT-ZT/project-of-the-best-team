@@ -36,6 +36,8 @@
 }
 .mobile-menu {
   position: fixed;
+  max-width: 220px;
+  max-height: 830px;
   top: 0;
   right: 0;
   background-color: var(--darkviolet-color);
@@ -53,9 +55,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 350px;
-  max-width: 220px;
-  max-height: 700px;
+  gap: 460px;
+  height: 830px;
   padding: 136px 44px 20px 20px;
   margin-left: auto;
   margin-right: auto;
@@ -84,6 +85,7 @@
   flex-direction: column;
   gap: 24px;
   color: var(--white-color);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-item-mobile:hover {
   color: var(--orange-color);
@@ -95,6 +97,7 @@
 .social-networks-icon-mobile {
   fill: transparent;
   stroke: var(--white-color);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-networks-icon-mobile:hover {
   stroke: var(--orange-color);
@@ -114,6 +117,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 375px;
+  }
+  .mobile-menu-container {
+    gap: 400px;
   }
 }
 
@@ -156,6 +162,7 @@
   .social-networks-icon {
     fill: none;
     stroke: var(--black-color);
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .mobile-menu-open-btn {
@@ -163,6 +170,7 @@
   }
   .header-nav-item {
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .header-nav-item:hover,
   .header-nav-item:focus {
@@ -177,6 +185,7 @@
     height: 1px;
     border-radius: 2px;
     background-color: var(--orange-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .nav-item-pseudo:hover::after,
   .nav-item-pseudo:focus::after {
