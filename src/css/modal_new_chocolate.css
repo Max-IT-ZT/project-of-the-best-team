@@ -12,7 +12,7 @@
   z-index: 30;
   background-color: #ffffff;
   border-radius: 15px;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 
 .modal-close-btn {
@@ -137,6 +137,10 @@
     margin-top: 24px;
   }
 
+ .top-pozition {
+
+ }
+
   .text-modal-open {
     width: 263px;
     margin-bottom: 24px;
@@ -152,8 +156,10 @@
   }
 
   .subscribe-img {
+    width: 100%;
     max-width: 538px;
-    height: 196px;
+    height: 100%;
+    max-height: 196px;
   }
 
   .modal-close-btn {
@@ -175,22 +181,24 @@
     width: 137px;
     height: 52px;
     position: relative;
-    font-size: 24px;
     padding: 17px 33px 18px 33px;
     margin: 0;
   }
 
   .text-modal-open {
-    min-width: 298px;
-    margin-top: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    /* min-width: 298px; */
+    /* margin-top: 40px; */
     margin-bottom: 28px;
     font-size: 24px;
     line-height: 1.17;
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
   }
 
-  .modal-form-input {
+  /* .modal-form-input {
     margin-right: 8px;
-  }
+  } */
 }
