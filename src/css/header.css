@@ -101,7 +101,9 @@
 .social-networks-icon-mobile:hover {
   stroke: var(--orange-color);
 }
-
+.header-icon-focus:focus {
+  stroke: var(--orange-color);
+}
 @media screen and (max-width: 1199px) {
   .header-nav,
   .social-networks {
