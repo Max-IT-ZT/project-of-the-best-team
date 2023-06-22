@@ -78,6 +78,11 @@
   border-radius: 100px;
   border: none;
 }
+.modal-form-subscribe:hover,
+.modal-form-subscribe:focus {
+  color: #fd9222;
+  background: #fcf1e0;
+}
 .modal-form-subscribe:disabled {
   background-color: rgb(234, 234, 234);
   color: rgb(120, 120, 120);
@@ -203,11 +208,6 @@
     position: relative;
     padding: 17px 33px 18px 33px;
     margin: 0;
-  }
-  .modal-form-subscribe:hover,
-  .modal-form-subscribe:focus {
-    color: #fd9222;
-    background: #fcf1e0;
   }
 
   .text-modal-open {
