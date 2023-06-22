@@ -92,6 +92,10 @@
   .swiper-slide-two {
     display: none;
   }
+  .our-product-item-block-two,
+  .our-product-item-block-three {
+    display: none;
+  }
   .our-product-swiper {
     width: 100%;
   }
