@@ -1,4 +1,3 @@
-
 @import url('./modal_new_chocolate.css');
 
 .subscribe-container {
@@ -32,8 +31,6 @@
   text-align: center;
 }
 
-
-
 .subscribe-btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -49,6 +46,11 @@
   min-width: 128px;
   text-align: center;
 }
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background: var(--lightorange-color);
+  color: var(--orange-color);
+}
 
 @media screen and (max-width: 374px) {
   .subscribe-container {
@@ -56,48 +58,48 @@
     margin: 0 auto;
   }
 
-        .subscribe-text {
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 1.3;
-          text-align: center;
-          letter-spacing: -0.02em;
-          color: #ffffff;
-          width: 271px;
-          margin-left: auto;
-          margin-right: auto;
-          margin-bottom: 24px;
-          text-align: center;
-        }
+  .subscribe-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    width: 271px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .subscribe-main {
     background-image: url('../images/subscribe-mobile@2x.jpg');
   }
 }
 
-@media screen and (min-width:375px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .subscribe-container {
     width: 375px;
     margin: 0 auto;
   }
 
-    .subscribe-text {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.3;
-      text-align: center;
-      letter-spacing: -0.02em;
-      color: #ffffff;
-      width: 326px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 24px;
-      text-align: center;
-    }
+  .subscribe-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    width: 326px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -158,8 +160,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .subscribe-container {
     background-image: url('../img/our-new-chocolate/subcribe-tablet@2x.jpg');
   }
@@ -224,8 +226,8 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-screen and (min-resolution: 192dpi) and (min-width: 1200px),
-screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .subscribe-container {
     background-image: url('../img/our-new-chocolate/subcribe-desktop@2x.jpg');
   }

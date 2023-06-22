@@ -74,7 +74,7 @@
 }
 
 .leave-modal-form-main-container {
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 .leave-modal-label-name {
   display: block;
@@ -159,8 +159,8 @@
 .leave-modal-textarea {
   resize: none;
   width: 100%;
-  min-height: 91px;
-  padding: 14px 18px 60px;
+  min-height: 89px;
+  padding: 14px 18px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 8px;

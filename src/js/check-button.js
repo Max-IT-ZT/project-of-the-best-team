@@ -24,3 +24,8 @@ input2.addEventListener('input', checkInputs);
 input3.addEventListener('input', checkInputs);
 input4.addEventListener('input', checkInputs);
 input5.addEventListener('input', checkInputs);
+
+var input1 = document.getElementById('userss-name');
+var input2 = document.getElementById('mails-id');
+var input3 = document.getElementById('phones-id');
+var myButtontwo = document.getElementById('mybuttontwo');
