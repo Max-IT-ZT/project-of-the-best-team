@@ -48,7 +48,6 @@
 .footer-social-logo:hover,
 .footer-social-icon:focus {
   stroke: var(--orange-color);
-
 }
 
 .footer-contacts-title {
@@ -94,10 +93,8 @@
 }
 
 .footer-slogan-block {
-
   max-width: 300px;
 }
-
 
 .footer-container {
   padding: 32px 20px;
@@ -195,7 +192,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-
   .footer-container {
     padding: 50px 32px;
     width: 1200px;
@@ -226,5 +222,4 @@
   .footer-nav-item:not(:last-child) {
     margin-bottom: 0;
   }
-
 }
