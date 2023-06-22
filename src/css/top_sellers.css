@@ -1,4 +1,3 @@
-@import url('./modal_buy-now');
 .sellers {
   position: relative;
 }
@@ -17,7 +16,7 @@
 .sellers-subtitle-text {
   color: var(--orange-color);
 }
-.sellers-item {
+.sellers-list {
   margin-bottom: 20px;
 }
 .sellers-mobile-first-card {
@@ -52,7 +51,19 @@
   color: var(--orange-color);
 }
 @media screen and (max-width: 767px) {
-  .sellers-container {
+  .sellers-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .sellers-mobile-item {
+    order: -3;
+  }
+  .sellers-mobile-text {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    order: -1;
+  }
+  .sellers-text {
     display: none;
   }
 }
@@ -61,17 +72,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sellers-mobile {
+  .sellers-mobile-text {
     display: none;
   }
-
   .sellers-list {
     display: flex;
     align-items: center;
     column-gap: 16px;
   }
 
-  .sellers-item {
+  .sellers-list {
     margin-bottom: 32px;
   }
 

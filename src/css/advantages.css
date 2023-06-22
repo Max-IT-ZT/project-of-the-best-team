@@ -33,6 +33,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    .advantages-item {
+        padding-bottom: 18px;
+    }
+
     .advantages-item:not(:last-child) {
         margin-bottom: 20px;
     }
@@ -90,10 +94,4 @@
     line-height: 1.21;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
-}
-
-@media screen and (max-width: 767px) {
-    .advantages-descr {
-        padding-bottom: 18px;
-    }
 }

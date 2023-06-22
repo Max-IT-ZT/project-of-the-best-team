@@ -1,4 +1,4 @@
-var input1 = document.getElementById('user-name');
+var input1 = document.getElementById('users-name');
 var input2 = document.getElementById('user-surname');
 var input3 = document.getElementById('mail-id');
 var input4 = document.getElementById('phone-id');
