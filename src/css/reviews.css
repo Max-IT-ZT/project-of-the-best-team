@@ -153,11 +153,6 @@
     cursor: pointer;
 }
 
-/* .reviews-swiper-icon { */
-    /* display: flex; */
-    /* gap: 13px; */
-/* } */
-
 .reviews-icon-ellips {
     fill: var(--orange-color);
 }
@@ -208,9 +203,6 @@
        padding: 42px 0 45px 0; /*paddind-bottom: 32px + 13px = 45px*/
     }
 
-    /* .reviews-item:nth-child(3) { */
-        /* margin-left: 50px; */
-    /* } */
 }
 
 /* DESKTOP */
@@ -233,7 +225,4 @@
         width: 360px;
     }
 
-    /* .reviews-item:nth-child(3) { */
-        /* margin-left: 0; */
-    /* } */
 }
